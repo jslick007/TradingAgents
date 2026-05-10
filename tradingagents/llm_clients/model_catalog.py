@@ -104,6 +104,7 @@ MODEL_OPTIONS: ProviderModeOptions = {
     # OpenRouter: fetched dynamically. Azure: any deployed model name.
     "ollama": {
         "quick": [
+            ("Llama 3.2 1B - Fastest, local", "llama3.2:1b"),
             ("Llama 3.2 3B - Fast, local", "llama3.2:3b"),
             ("Qwen3:latest (8B, local)", "qwen3:latest"),
             ("GPT-OSS:latest (20B, local)", "gpt-oss:latest"),
@@ -111,6 +112,7 @@ MODEL_OPTIONS: ProviderModeOptions = {
         ],
         "deep": [
             ("Gemini 3 Flash Preview - Reasoning", "gemini-3-flash-preview"),
+            ("Llama 3.2 1B - Fastest, local", "llama3.2:1b"),
             ("Llama 3.2 3B - Fast, local", "llama3.2:3b"),
             ("GLM-4.7-Flash:latest (30B, local)", "glm-4.7-flash:latest"),
             ("GPT-OSS:latest (20B, local)", "gpt-oss:latest"),

@@ -14,7 +14,7 @@ DEFAULT_CONFIG = {
     # LLM settings
     "llm_provider": "ollama",
     "deep_think_llm": "llama3.2:3b",
-    "quick_think_llm": "llama3.2:3b",
+    "quick_think_llm": "llama3.2:1b",
     # When None, each provider's client falls back to its own default endpoint
     # (api.openai.com for OpenAI, generativelanguage.googleapis.com for Gemini, ...).
     # The CLI overrides this per provider when the user picks one. Keeping a
