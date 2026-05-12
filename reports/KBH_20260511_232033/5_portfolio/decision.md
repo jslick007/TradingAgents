@@ -1,0 +1,7 @@
+**Rating**: Hold
+
+**Executive Summary**: Maintain current position in KBH. Do not initiate new large exposures until a technical reversal is confirmed via a bullish MACD crossover or an RSI hook upward from oversold territory. Use 52-week lows as potential accumulation zones for existing positions to capture deep value while managing macro-induced volatility.
+
+**Investment Thesis**: The investment decision for KBH is a Hold, reflecting a tension between extreme deep-value metrics (0.78 P/B, 7.80 current ratio) and significant macroeconomic and technical headwinds. While the aggressive view highlights a 'value vacuum' where the 22% discount to book value and fortress balance sheet offer asymmetric upside, the conservative view correctly identifies that book value is a lagging indicator and current mortgage rates pose a systemic threat to demand. The decision to hold rather than buy avoids catching a 'falling knife' in a strongly bearish trend (RSI at 40 and falling; MACD at -1.14), yet avoids selling a fundamentally sound company that is actively buying back shares and innovating with ENERGY STAR designs. The path forward is a tactical accumulation strategy: scale in when technical signals (RSI < 30 and rebounding, or MACD crossover) provide evidence of stabilization, while potentially hedging the broader Treasury-Mortgage link via homebuilder ETFs or Treasury-related instruments to mitigate systemic macro risk.
+
+**Time Horizon**: 6-12 months

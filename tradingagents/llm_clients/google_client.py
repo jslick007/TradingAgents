@@ -44,6 +44,7 @@ class GoogleClient(BaseLLMClient):
         # Gemini 3 Pro: low, high
         # Gemini 3 Flash: minimal, low, medium, high
         # Gemini 2.5: thinking_budget (0=disable, -1=dynamic)
+        # Gemma models: no thinking support, skip
         thinking_level = self.kwargs.get("thinking_level")
         if thinking_level:
             model_lower = self.model.lower()
@@ -52,7 +53,7 @@ class GoogleClient(BaseLLMClient):
                 if "pro" in model_lower and thinking_level == "minimal":
                     thinking_level = "low"
                 llm_kwargs["thinking_level"] = thinking_level
-            else:
+            elif "gemini-2" in model_lower:
                 # Gemini 2.5: map to thinking_budget
                 llm_kwargs["thinking_budget"] = -1 if thinking_level == "high" else 0
 

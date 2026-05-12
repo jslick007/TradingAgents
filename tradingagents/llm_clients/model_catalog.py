@@ -42,12 +42,16 @@ MODEL_OPTIONS: ProviderModeOptions = {
             ("Gemini 2.5 Flash - Balanced, stable", "gemini-2.5-flash"),
             ("Gemini 3.1 Flash Lite - Most cost-efficient", "gemini-3.1-flash-lite-preview"),
             ("Gemini 2.5 Flash Lite - Fast, low-cost", "gemini-2.5-flash-lite"),
+            ("Gemma 4 31B IT - Open, lightweight", "gemma-4-31b-it"),
+            ("Gemma 4 26B A4B IT - MoE, efficient", "gemma-4-26b-a4b-it"),
         ],
         "deep": [
             ("Gemini 3.1 Pro - Reasoning-first, complex workflows", "gemini-3.1-pro-preview"),
             ("Gemini 3 Flash - Next-gen fast", "gemini-3-flash-preview"),
             ("Gemini 2.5 Pro - Stable pro model", "gemini-2.5-pro"),
             ("Gemini 2.5 Flash - Balanced, stable", "gemini-2.5-flash"),
+            ("Gemma 4 31B IT - Open, lightweight", "gemma-4-31b-it"),
+            ("Gemma 4 26B A4B IT - MoE, efficient", "gemma-4-26b-a4b-it"),
         ],
     },
     "xai": {
